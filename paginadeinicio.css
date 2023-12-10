@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Londrina+Solid:wght@300&display=swap');
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #bfd1f8;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #747afb;
+}
+
+nav a {
+    color: #332b2b;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.slide{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.slide img{
+    height: 55vh;
+    max-width: 85rem;
+}
+.card1{
+    margin-top: 5px;
+}
+.container-titulo{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
